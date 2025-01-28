@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "npx vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "chmod -R 755 ./node_modules/.bin"
   },
   "dependencies": {
     "lucide-react": "^0.469.0",
